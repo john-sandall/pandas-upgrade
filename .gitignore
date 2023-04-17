@@ -26,9 +26,14 @@ TODO.txt
 venv/
 
 # coverage
-.coverage
-.coverage.*
+/.coverage
+/.coverage.*
 htmlcov
+
+# Build
+*.egg-info/
+/build/
+/dist/
 
 # IDE config
 .idea/
@@ -40,6 +45,7 @@ profile_default/
 ignore/
 *.log
 *.pem
+/.tox
 
 # Editor
 pyrightconfig.json
